@@ -14,22 +14,22 @@ import java.util.Observable;
 
 public class ViewModel extends Observable implements Observer
 {
-    public DoubleProperty throttle;
-    public DoubleProperty rudder;
-    public DoubleProperty aileron;
-    public DoubleProperty elevator;
     public StringProperty ip;
+    public DoubleProperty aileron;
+    public DoubleProperty heading;
     public StringProperty port;
-    public DoubleProperty airplaneX;
-    public DoubleProperty airplaneY;
-    public DoubleProperty startX;
     public DoubleProperty startY;
+    public DoubleProperty airplaneX;
+    public DoubleProperty rudder;
+    public DoubleProperty elevator;
     public DoubleProperty offset;
     public StringProperty script;
-    public DoubleProperty heading;
     public DoubleProperty markSceneX;
+    public DoubleProperty startX;
+    public DoubleProperty airplaneY;
     public DoubleProperty markSceneY;
     public BooleanProperty path;
+    public DoubleProperty throttle;
     private int[][] data;
     private Model model;
 

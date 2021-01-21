@@ -18,6 +18,7 @@ import interpreter.AdapterParser;
 import interpreter.MyParser;
 
 public class Model extends Observable implements Observer {
+
     private SimulatorClient simulatorClient;
     public static volatile boolean stop=false;
     public static volatile boolean turn=true;
