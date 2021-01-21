@@ -9,8 +9,8 @@ public abstract class CommonSearcher<Solution> implements Searcher<Solution>
 	protected int finishedNodes;
 
 	public CommonSearcher() {
-		final Comparator<State> comp = new StateComparator();
-		this.openPriorityQueue = new PriorityQueue<State>(comp);
+		final Comparator<State> stateComparator = new StateComparator();
+		this.openPriorityQueue = new PriorityQueue<State>(stateComparator);
 		this.finishedNodes = 0;
 	}
 
@@ -19,10 +19,10 @@ public abstract class CommonSearcher<Solution> implements Searcher<Solution>
 		return this.openPriorityQueue.poll();
 	}
 
-	protected Solution backTrace(final State goalState, final State initialState) {
+	protected Solution path(final State goalState, final State initialState) {
 		if (goalState.equals(initialState)) {
 			return (Solution) initialState.getState();
 		}
-		return (Solution)(this.backTrace(goalState.getCameFrom(), initialState) + "->" + goalState.getState());
+		return (Solution)(this.path(goalState.getCameFrom(), initialState) + "->" + goalState.getState());
 	}
 }

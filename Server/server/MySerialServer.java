@@ -36,12 +36,12 @@ public class MySerialServer implements Server
 
 	private void runServer() throws Exception {
 		final ServerSocket server = new ServerSocket(this.port);
-		System.out.println("Server is open. waiting for clients...");
+		System.out.println("Server is running, waiting for clients...");
 		server.setSoTimeout(164000000);
 		while (!this.stop) {
 			try {
 				final Socket aClient = server.accept();
-				System.out.println("Client connected to the server");
+				System.out.println("Client has connected to the server");
 				try {
 					this.clientHandler.handleClient(aClient.getInputStream(), aClient.getOutputStream());
 					aClient.close();
