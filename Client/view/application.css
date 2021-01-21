@@ -2,7 +2,7 @@
 
 .bodybg{
  /*-fx-background-image: url('file:///C:/Users/jacobsongal/Desktop/FlightSimulatorController/resources/background.jpg');*/
- -fx-background-image: url('./images/Cessana.jpg');
+ -fx-background-image: url('images/Cessana.jpg');
  -fx-background-size: 100% 100%;
 }
 .rad{

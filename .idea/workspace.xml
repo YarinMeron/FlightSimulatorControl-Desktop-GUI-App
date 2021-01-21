@@ -2,105 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e5ff73-ebce-4b95-9c16-b8c67255cf48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/.idea/FlightSimulatorContorl-GUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/FlightSimulatorControl-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/data/Takeoff script.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/data/map-Honolulu.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/data/shortestpath route.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/data/simulator_vars.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/Target.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/airplanalogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane270.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane315.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/resources/plane90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/runClient.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/runClient.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/runServer.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/runServer.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/Astar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/BFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/CommonSearcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/Searchable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/Searcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/algorithms/StateComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/AssignCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/AutoPathCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/CommandExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/ConditionCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/ConnectCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/DataReaderServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/DeclareVarCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/DisconnectCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/IfCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/LoopCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/PredicateCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/PrintCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/ReturnCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/commands/SleepCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/And.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/BinaryExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/CoditionBulider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Div.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Expression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Minus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Mul.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Number.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Or.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/Plus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/PredicateExp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/ShuntingYard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/expressions/ShuntingYardPredicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/AdapterParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/CustomVar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/GenericFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/Lexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/MyLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/MyParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/SimLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/interpreter/SimParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/matrix/Matrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/matrix/MatrixState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/model/Interpreter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/model/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/model/SimulatorClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/CacheManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/ClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/ClientHandlerPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/FileCacheManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/MyClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/MySerialServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/MyTestClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/Solver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/server/SolverSearcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/CalcPopup.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/ConnectSimPopup.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/Flight.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/FlightController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/MainWindowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/MapDisplayerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/images/Cessana.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/view/images/mx5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightSimulatorContorl-GUI/src/viewmodel/ViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Astar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Astar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611232969842</updated>
       <workItem from="1611232974536" duration="468000" />
-      <workItem from="1611248900533" duration="236000" />
+      <workItem from="1611248900533" duration="370000" />
     </task>
     <servers />
   </component>
