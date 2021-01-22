@@ -2,7 +2,7 @@
 
 FlightSimulatorControl<br>
 <br>
-In this project we created  a JavaFX Desktop Application made for Advanced Software Development course at the College of Management Academic<br> Studies. conducted by Dr. Eliahu Khalastchi.<br>
+In this project we created  a JavaFX Desktop Application made for Advanced Software Development course at the College of Management Academic Studies. <br>conducted by Dr. Eliahu Khalastchi.
 <br>
 Project goal is to build a desktop application that connecting to FlightGear flight simulator and gets all the flight data and writing back to FlightGear server with our custom script language.<br>
 <br>
