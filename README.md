@@ -54,8 +54,9 @@ GUI by JavaFX<br>
   <li>Intellij IDE</li>
     <li> Scene Builder</li>
   
-  <h1>Authros</h1>
-  <a>https://www.linkedin.com/in/eliordayari/</a>
+  <h3>Authros</h3>
+  <a rel="https://www.linkedin.com/in/eliordayari/">Elior Dayari
+</a>
   <a>https://www.linkedin.com/in/yarin-meron</a>
 
 
