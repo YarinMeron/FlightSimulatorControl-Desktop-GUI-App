@@ -1,4 +1,4 @@
-![74982dbd-70ba-469b-8f43-78eeeff6b287](https://user-images.githubusercontent.com/66214295/105473768-23ce9600-5ca6-11eb-8c14-bc2308e6fc06.jpg)
+
 
 FlightSimulatorControl
 
@@ -8,7 +8,7 @@ Project goal is to build a desktop application that connecting to FlightGear fli
 
 
 
-
+![74982dbd-70ba-469b-8f43-78eeeff6b287](https://user-images.githubusercontent.com/66214295/105473768-23ce9600-5ca6-11eb-8c14-bc2308e6fc06.jpg)
 
 
 
