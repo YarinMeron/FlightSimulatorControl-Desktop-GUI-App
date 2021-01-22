@@ -12,7 +12,8 @@ Project goal is to build a desktop application that connecting to FlightGear fli
 
 
 
-Server-
+Server -
+
 In this section we designed generic server that can be reuse in other applications.
 
 
@@ -26,6 +27,10 @@ We used the Bridge Design patten  to separate between the objects that solve the
 
 Client  -
 In this section we implemented MVVM design. The mvvm design patten that facilitates the separation of the development of the interface (the view) – be it via a markup language or GUI code – from the development of the business logic or back end logic.
+<img width="567" alt="Screen Shot 2021-01-22 at 11 11 20" src="https://user-images.githubusercontent.com/66214295/105474543-ff26ee00-5ca6-11eb-80b3-3a068d1900bb.png">
+
+
+
 
 Model – Responsible for our business logic, such as algorithms and data access.
 View Model – It passes commands from the View to the Model, and its purpose is to separate the View from the Model.
