@@ -49,10 +49,14 @@ GUI by JavaFX<br>
 <img width="970" alt="Screen Shot 2021-01-22 at 11 45 54" src="https://user-images.githubusercontent.com/66214295/105474904-765c8200-5ca7-11eb-8433-154bfc5b0238.png">
 
 
-Build With:
+<h1>Build With:<h1>
 <ul>
   <li>Intellij IDE</li>
     <li> Scene Builder</li>
+  
+  <h1>Authros</h1>
+  <a>https://www.linkedin.com/in/eliordayari/</a>
+  <a>https://www.linkedin.com/in/yarin-meron</a>
 
 
 
