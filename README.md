@@ -42,10 +42,10 @@ Data Binding – Implemented by Observer & Observable design patten. <br>
 <br>
 
 <img width="567" alt="Screen Shot 2021-01-22 at 11 11 20" src="https://user-images.githubusercontent.com/66214295/105474543-ff26ee00-5ca6-11eb-80b3-3a068d1900bb.png">
-
-
-
 <br>
+<br>
+<br>
+GUI by JavaFX<br>
 
 
 
