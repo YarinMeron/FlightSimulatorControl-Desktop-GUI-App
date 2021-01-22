@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e5ff73-ebce-4b95-9c16-b8c67255cf48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README/74982dbd-70ba-469b-8f43-78eeeff6b287.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README/Screen Shot 2021-01-22 at 11.10.25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README/Screen Shot 2021-01-22 at 11.10.51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README/Screen Shot 2021-01-22 at 11.11.26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README/Screen Shot 2021-01-22 at 11.11.45.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/README" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,6 +58,7 @@
       <recent name="$PROJECT_DIR$/Server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/README" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
@@ -98,7 +104,7 @@
       <workItem from="1611232974536" duration="468000" />
       <workItem from="1611248900533" duration="1250000" />
       <workItem from="1611251130014" duration="2059000" />
-      <workItem from="1611305757917" duration="357000" />
+      <workItem from="1611305757917" duration="744000" />
     </task>
     <servers />
   </component>
