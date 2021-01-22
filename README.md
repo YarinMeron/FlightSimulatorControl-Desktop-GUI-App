@@ -1,6 +1,6 @@
 
 
-FlightSimulatorControl<br>
+<h1><b>FlightSimulatorControl</b></h1><br>
 <br>
 In this project we created  a JavaFX Desktop Application made for Advanced Software Development course at the College of Management Academic Studies. <br>conducted by Dr. Eliahu Khalastchi.
 <br>
@@ -55,9 +55,9 @@ GUI by JavaFX<br>
     <li> Scene Builder</li>
   </ul>
   
-  <h3>Authros</h3>
-  <a rel="https://www.linkedin.com/in/eliordayari/">Elior Dayari</a>
-  <a rel="https://www.linkedin.com/in/yarin-meron">Yarin Meron</a>
+  <h1>Authros</h1>
+  <a href="https://www.linkedin.com/in/eliordayari/">Elior Dayari</a>
+  <a href="https://www.linkedin.com/in/yarin-meron">Yarin Meron</a>
 
 
 
