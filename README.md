@@ -58,7 +58,7 @@ GUI by JavaFX<br>
   </ul>
   
   <h1>Authros</h1>
-  <a href="https://www.linkedin.com/in/eliordayari/">Linkedin Profile: Elior Dayari</a>
+  <a href="https://www.linkedin.com/in/eliordayari/">Linkedin Profile: Elior Dayari</a><br>
   <a href="https://www.linkedin.com/in/yarin-meron">Linkedin Profile: Yarin Meron</a>
 
 
