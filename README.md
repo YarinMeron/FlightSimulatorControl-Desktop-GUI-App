@@ -21,6 +21,7 @@ In this section we designed generic server that can be reuse in other applicatio
 
 
 We used the Bridge Design patten  to separate between the objects that solve the problems and the objects that represents the problems. 
+<img width="598" alt="Screen Shot 2021-01-22 at 11 10 51" src="https://user-images.githubusercontent.com/66214295/105474301-d1da4000-5ca6-11eb-8247-35e89f255702.png">
 
 
 Client  -
