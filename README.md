@@ -53,11 +53,11 @@ GUI by JavaFX<br>
 <ul>
   <li>Intellij IDE</li>
     <li> Scene Builder</li>
+  </ul>
   
   <h3>Authros</h3>
-  <a rel="https://www.linkedin.com/in/eliordayari/">Elior Dayari
-</a>
-  <a>https://www.linkedin.com/in/yarin-meron</a>
+  <a rel="https://www.linkedin.com/in/eliordayari/">Elior Dayari</a>
+  <a rel="https://www.linkedin.com/in/yarin-meron">Yarin Meron</a>
 
 
 
