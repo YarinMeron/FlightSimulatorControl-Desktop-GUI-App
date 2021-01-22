@@ -8,7 +8,8 @@ Project goal is to build a desktop application that connecting to FlightGear fli
 <br>
 <br>
 <br>
-![74982dbd-70ba-469b-8f43-78eeeff6b287](https://user-images.githubusercontent.com/66214295/105477210-3e0a7300-5caa-11eb-86c1-c28b5db31816.jpg)
+
+<img width="605" alt="Screen Shot 2021-01-22 at 11 10 25" src="https://user-images.githubusercontent.com/66214295/105477210-3e0a7300-5caa-11eb-86c1-c28b5db31816.jpg">
 
 <br>
 <br>
