@@ -16,6 +16,7 @@ Server-
 In this section we designed generic server that can be reuse in other applications.
 
 
+<img width="605" alt="Screen Shot 2021-01-22 at 11 10 25" src="https://user-images.githubusercontent.com/66214295/105474129-9b042a00-5ca6-11eb-9370-622eb36dce13.png">
 
 
 
