@@ -7,7 +7,7 @@ Project goal is to build a desktop application that connecting to FlightGear fli
 
 
 
-
+![alt text](https://github.com/YarinMeron/FlightSimulatorControl-GUI/issues/2#issue-791844225)
 
 
 
