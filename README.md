@@ -13,7 +13,7 @@ Project goal is to build a desktop application that connecting to <a href="https
 
 So how does it work?<br>
 On the server we design a generic server that gets a problem and return a solution(generic server) in this project we implemented a serial server that solve shortest paths problems, The problem is stored in a matrix(Graph) and with Astar and Best First Search algorithms he returns the shortest path.<br>
-On the Client side we are using multi-threading programing - one thread in opepning DataReaderServer that reads all the flight data from FlightGear server and stores the FlightData on in out DataBase, another thread is connecting to the FlightGear server as a Client and sending back our commands to the plane. We used  important designs patterns and SOLID & GRAPS priceables such as Observer patten , Brigde patten, Command patten and more.
+On the Client side we are using multi-threading programing - one thread in opepning DataReaderServer that reads all the flight data from FlightGear server and stores the FlightData in our DB, another thread is connecting to the FlightGear server as a Client and sending back our commands to the plane. We used  important designs patterns and SOLID & GRAPS priceables such as Observer patten , Brigde patten, Command patten and more.
 <br>
 <br>
 <br>
