@@ -11,32 +11,32 @@ import java.util.Properties;
 
 public class FileCacheManager<Problem,Solution> implements CacheManager<Problem,Solution>  {
 
-	HashMap<Problem,Solution> disc;
-	Properties prop;
+	HashMap<Problem,Solution> problemSolutionHashMap;
+	Properties myProperties;
 	
 	@SuppressWarnings("unchecked")
 	public FileCacheManager() {
-		prop=new Properties();
-		String name="hash2.properties";
+		myProperties=new Properties();
+		String name="cache.properties";
 		try {
-			prop.load(new FileInputStream(name));
+			myProperties.load(new FileInputStream(name));
 		} catch (FileNotFoundException e) {
 			System.out.println("File not found");
-			//e.printStackTrace();
+			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		this.disc=new HashMap<>();
-		if(prop!=null)
+		this.problemSolutionHashMap =new HashMap<>();
+		if(myProperties!=null)
 		{
 			
-			Enumeration<?> E=prop.propertyNames();
+			Enumeration<?> E=myProperties.propertyNames();
 			while(E.hasMoreElements())
 			{
 				Problem key=(Problem)E.nextElement();
 				if(key!=null)
-					this.disc.put(key,(Solution) prop.get(key));
+					this.problemSolutionHashMap.put(key,(Solution) myProperties.get(key));
 			}
 		}
 		
@@ -44,24 +44,24 @@ public class FileCacheManager<Problem,Solution> implements CacheManager<Problem,
 
 	@Override
 	public Boolean check(Problem in) {
-		if(disc.isEmpty())
+		if(problemSolutionHashMap.isEmpty())
 			return false;
-		return disc.containsKey(in);
+		return problemSolutionHashMap.containsKey(in);
 		
 	}
 
 	@Override
 	public Solution extract(Problem in) {
-		return disc.get(in);
+		return problemSolutionHashMap.get(in);
 	}
 
 	@Override
 	public void save(Problem in, Solution out) {
-		disc.put(in, out);
-		prop.putAll(this.disc);
-		String name="hash2.properties";
+		problemSolutionHashMap.put(in, out);
+		myProperties.putAll(this.problemSolutionHashMap);
+		String name="cache.properties";
 		try {
-			prop.store(new FileOutputStream(name), null);
+			myProperties.store(new FileOutputStream(name), null);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

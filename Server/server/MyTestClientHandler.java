@@ -23,13 +23,13 @@ public class MyTestClientHandler<Problem,Solution> implements ClientHandler {
 	
 	@Override
 	public void handleClient(InputStream in, OutputStream out)  {
-		BufferedReader Bin=new BufferedReader(new InputStreamReader(in));
-		PrintWriter Bout=new PrintWriter(new OutputStreamWriter(out));
+		BufferedReader in=new BufferedReader(new InputStreamReader(in));
+		PrintWriter out=new PrintWriter(new OutputStreamWriter(out));
 		try {
 			Problem Line;
 			Solution Solved;
 			
-			while(!(Line=(Problem) Bin.readLine()).equals("end"))
+			while(!(Line=(Problem) in.readLine()).equals("end"))
 			{
 				
 				if(cm.check(Line))
@@ -42,20 +42,20 @@ public class MyTestClientHandler<Problem,Solution> implements ClientHandler {
 				Solved=(Solution) solver.Solve(Line);
 				cm.save(Line, Solved);
 				}
-				Bout.println(Solved);
-				Bout.flush();
+				out.println(Solved);
+				out.flush();
 
 			}
 			
 		}catch (IOException e) {e.printStackTrace();}
 		
 		try {
-			Bin.close();
+			in.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Bout.close();
+		out.close();
 	}
 
 }
