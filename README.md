@@ -12,8 +12,8 @@ Project goal is to build a desktop application that connecting to <a href="https
 <img width="605" alt="Screen Shot 2021-01-22 at 11 10 25" src="https://user-images.githubusercontent.com/66214295/105477210-3e0a7300-5caa-11eb-86c1-c28b5db31816.jpg">
 
 So how does it work?<br>
-On the server we design a generic server that gets a problem and returns a solution in this project we implemented a serial server that solves shortest paths problems, The problem is stored in a matrix(Graph) and with Astar and Best First Search algorithms, he returns the shortest path.<br>
-On the client-side we are using multi-threading programming - one thread in opening DataReaderServer that reads all the flight data from FlightGear server and stores the FlightData in our DB, another thread is connecting to the FlightGear server as a Client and sending back our commands to the plane. We used important design patterns and SOLID & GRAPS principles such as Observer pattern, Bridge patten, Command pattern, and more.
+On the server-side we design a generic server that gets a problem and returns a solution. In this project we implemented a serial server that solves the shortest path problem, The problem is stored in a matrix(Graph) and with Astar and Best First Search algorithms, he returns the shortest path.<br>
+On the client-side we are using multi-threading programming - one thread in opening DataReaderServer that reads all the flight data from FlightGear server and stores the flight data in our DB, another thread is connecting to the FlightGear server as a Client and sending back our commands to the plane. We used important design patterns and SOLID & GRAPS principles such as Observer pattern, Bridge patten, Command pattern, and more.
 <br>
 <br>
 <br>
@@ -36,7 +36,7 @@ We used the Bridge Design patten  to separate between the objects that solve the
 <br>
 Client  -<br>
 <br>
-In this section we implemented MVVM design. The mvvm design patten that facilitates the separation of the development of the interface (the view) – be it via a markup language or GUI code – from the development of the business logic or back end logic.
+In this section we implemented MVVM design. The mvvm design patten that facilitates the separation of the development of the the view from the development of the business logic or back end logic.
 <br>
 
 Model – Responsible for our business logic, such as algorithms and data access.<br>
