@@ -53,7 +53,7 @@ GUI by JavaFX<br>
 
 <h1>Build With:<h1>
 <ul>
-  <li>Intellij IDE</li>
+  <li>Intellij IDEA</li>
     <li> Scene Builder</li>
   </ul>
   
