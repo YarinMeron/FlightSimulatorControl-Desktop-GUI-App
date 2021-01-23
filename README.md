@@ -8,12 +8,12 @@ Project goal is to build a desktop application that connecting to <a href="https
 <br>
 <br>
 <br>
-
+th
 <img width="605" alt="Screen Shot 2021-01-22 at 11 10 25" src="https://user-images.githubusercontent.com/66214295/105477210-3e0a7300-5caa-11eb-86c1-c28b5db31816.jpg">
 
 So how does it work?<br>
 On the server we design a generic server that gets a problem and return a solution(generic server) in this project we implemented a serial server that solve shortest paths problems, The problem is stored in a matrix(Graph) and with Astar and Best First Search algorithems he returns the shortest path.
-On the Client side we are using multi-threading programing - 1 thread in opepning DataReaderServer that reads all the flight data from FlightGear server, another thread is connecting to the FlightGear server and sending back our commands to the plane. 
+On the Client side we are using multi-threading programing - 1 thread in opepning DataReaderServer that reads all the flight data from FlightGear server, another thread is connecting to the FlightGear server as a Client and sending back our commands to the plane. We used  important  designs patterns and SOLID and GRAPHS priceables such as Observer patten , Brigde patten, Command patten and more.
 <br>
 <br>
 <br>
@@ -56,7 +56,7 @@ GUI by JavaFX<br>
 
 <h1>Build With:<h1>
 <ul>
-  <li>Intellij IDEA</li>
+  <a href="https://www.jetbrains.com/idea/"><li>Intellij IDEA</li><a>
     <li> Scene Builder</li>
   </ul>
   
