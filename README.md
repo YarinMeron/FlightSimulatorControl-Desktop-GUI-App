@@ -4,7 +4,7 @@
 <br>
 In this project we created  a JavaFX Desktop Application made for Advanced Software Development course at the College of Management Academic Studies. <br>conducted by Dr. Eliahu Khalastchi.
 <br>
-Project goal is to build a desktop application that connecting to <a href="https://www.flightgear.org/" alt="FlightGear.org">FlightGear</a> flight simulator and gets all the flight data and writing back to FlightGear server with our custom script language.<br>
+Project goal is to build a desktop application that is connecting to <a href="https://www.flightgear.org/" alt="FlightGear.org">FlightGear</a> flight simulator and gets all the flight data and writing back to FlightGear server with our custom script language.<br>
 <br>
 <br>
 <br>
