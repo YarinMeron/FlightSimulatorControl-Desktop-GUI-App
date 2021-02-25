@@ -36,7 +36,7 @@ We used the Bridge Design patten  to separate between the objects that solve the
 <br>
 Client  -<br>
 <br>
-In this section we implemented MVVM design. The mvvm design patten that facilitates the separation of the development of the the view from the development of the business logic or back end logic.
+In this section we implemented MVVM design pattern. The mvvm design patten that facilitates the separation of the development of the the view from the development of the business logic or back end logic.
 <br>
 
 Model – Responsible for our business logic, such as algorithms and data access.<br>
